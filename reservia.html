@@ -2,12 +2,90 @@
 <html lang="fr">
   <head>
       <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
       <title>Reservia - Hébergement pour des vacances de rêve</title>
       <link rel="stylesheet" type="text/css" href="css/reservia.css">
       <link rel="stylesheet" type="text/css" href="css/normalize.css">
-
+      <link rel="stylesheet" href="//use.fontawesome.com/releases/v5.13.0/css/all.css">
   </head>
   <body>
+    <div class="page-container">
+        <header class="header" role="banner">
+            <div class="banner">
+                <div class="banner__logo">
+                    <img src="images/logo/Reservia.svg"
+                         srcset="images/logo/Reservia@3x.png 2x"
+                         alt="Reservia">
+                </div>
+                <div class="banner__menu">
+                    <ul class="menu">
+                        <li class="menu__item">
+                            <a class="menu__link" href="#hebergements" title="Hébergements">Hébergements</a>
+                        </li>
+                        <li class="menu__item">
+                            <a class="menu__link" href="#activites" title="Activités">Activités</a>
+                        </li>
+                        <li class="menu__item">
+                            <a class="menu__link" href="#inscription" title="Hébergements">S'inscrire</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="search">
+                <h1 class="search__title">
+                    Trouvez votre hébergement pour des vacances de rêve
+                </h1>
+                <h2 class="search__sub-title">
+                    En plein centre ville ou en pleine nature
+                </h2>
+                <form class="search__action-bar" action="#">
+                    <div class="search__icon">
+                        <i class="fas fa-map-marker-alt"></i>
+                    </div>
+                    <div class="search__input">
+                        <input id="search-bar__input" class="search-bar__input" name="search" type="text" placeholder="Où souhaitez - vous séjourner ?">
+                    </div>
+                    <button class="search__button" type="submit">Rechercher</button>
+                </form>
+            </div>
+
+            <div class="filters">
+                <h3 class="filters__title">
+                    Filtres
+                </h3>
+                <div class="filters__container">
+                    <input type="checkbox" id="economique" class="checkbox">
+                    <label for="economique"><span class="checkbox__title">Economique</span></label>
+                </div>
+                <div class="filters__container">
+                    <input type="checkbox" id="familial" class="checkbox">
+                    <label for="familial"><span class="checkbox__title">Familial</span></label>
+                </div>
+                <div class="filters__container">
+                    <input type="checkbox" id="romantique" class="checkbox">
+                    <label for="romantique"><span class="checkbox__title">Romantique</span></label>
+                </div>
+                <div class="filters__container">
+                    <input type="checkbox" id="animaux" class="checkbox">
+                    <label for="animaux"><span class="checkbox__title">Animaux autorisés</span></label>
+                </div>
+            </div>
+
+            <div class="information">
+                <h4 class="information__title">
+                    Plus de 500 logements sont disponibles dans cette ville
+                </h4>
+            </div>
+
+        </header>
+        
+
+
+
+
+    <!-- end page container -->
+    </div>
 
   </body>
 </html>
