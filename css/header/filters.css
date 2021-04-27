@@ -1,0 +1,168 @@
+/*------------------------------------------------*\
+    Project name: Reservia
+    Author: Adelino ARAUJO
+
+    FILTERS styles
+\*----------------------------------------------- */
+
+
+.filters__container, .filters__box{
+    display: flex;
+    align-items: center;
+}
+
+.filters__title{
+    margin-right: 20px;
+}
+
+.filters__box{
+    margin: 0 10px;
+}
+
+/*--------------------------------------- *\
+    COMMON styles
+\*----------------------------------------*/
+
+input[type="checkbox"].checkbox {
+    display: none;
+}
+
+input[type="checkbox"].checkbox + label {
+    position: relative;
+    display: inline;
+    height: 40px;
+    border-radius: 50px;
+    border: solid 1px lightgray;
+    background-color: white;
+    transition: 1s;
+}
+
+.checkbox__title{
+    position: absolute;
+    top: calc(50% - 8px);
+    font-size: 14px;
+    font-weight: 900;
+    transition: 1s;
+}
+
+input[type="checkbox"].checkbox + label:before {
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 50px;
+    background-color: #cceeff;
+    font-family: "Font Awesome 5 Free";
+    font-size: 20px;
+    color: #465fff;
+    font-weight: 900;
+    position: absolute;
+    transition: 1s;
+}
+
+input[type="checkbox"].checkbox:hover + label::before{
+    background-color: white;
+    color: #0065FC;
+    transition: 1s;
+}
+
+input[type="checkbox"].checkbox:hover + label{
+    background-color: #0065FC;
+    transition: 1s;
+}
+
+input[type="checkbox"].checkbox:hover + label .checkbox__title{
+    color: #DEEBFF;
+    transition: color 1s, transform 1s ;
+}
+
+
+/*--------------------------------------- *\
+    ECONOMIQUE styles
+\*----------------------------------------*/
+
+input[type="checkbox"].economique+ label {
+    width: 160px;
+}
+
+input[type="checkbox"].economique + label:before {
+    content: "\f53a";
+}
+
+input[type="checkbox"].economique:hover + label::before{
+    transform: translate(120px) rotate(360deg);
+}
+
+input[type="checkbox"].economique:hover + label .checkbox__title{
+    transform: translate(-25px);
+}
+
+/*--------------------------------------- *\
+    FAMILIAL styles
+\*----------------------------------------*/
+
+input[type="checkbox"].familial+ label {
+    width: 130px;
+}
+
+input[type="checkbox"].familial + label:before {
+    content: "\f183";
+}
+
+.checkbox__title{
+    right: 26px;
+}
+
+input[type="checkbox"].familial:hover + label::before{
+    transform: translate(90px) rotate(360deg);
+}
+
+input[type="checkbox"].familial:hover + label .checkbox__title{
+    transform: translate(-30px);
+}
+
+/*--------------------------------------- *\
+    ROMANTIQUE styles
+\*----------------------------------------*/
+
+input[type="checkbox"].romantique+ label {
+    width: 160px;
+}
+
+input[type="checkbox"].romantique + label:before {
+    content: "\f004";
+}
+
+input[type="checkbox"].romantique:hover + label::before{
+    transform: translate(120px) rotate(360deg);
+}
+
+input[type="checkbox"].romantique:hover + label .checkbox__title{
+    transform: translate(-30px);
+}
+
+
+/*--------------------------------------- *\
+    ANIMAUX styles
+\*----------------------------------------*/
+
+.checkbox__title{
+    right: 20px;
+}
+input[type="checkbox"].animaux+ label {
+    width: 190px;
+}
+
+input[type="checkbox"].animaux + label:before {
+    content: "\f53a";
+}
+
+input[type="checkbox"].animaux:hover + label::before{
+    transform: translate(150px) rotate(360deg);
+}
+
+input[type="checkbox"].animaux:hover + label .checkbox__title{
+    transform: translate(-30px);
+}

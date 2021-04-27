@@ -1,6 +1,8 @@
 /*------------------------------------------------*\
     Project name: Reservia
     Author: Adelino ARAUJO
+
+    DEFAULT and MAIN styles
 \*----------------------------------------------- */
 
 
@@ -17,9 +19,9 @@ img{
     height: auto;
 }
 
-/*----------------- *\
+/*---------------------------------------- *\
     Main styles
-\*------------------*/
+\*-----------------------------------------*/
 
 body{
     background-color: #fff;
@@ -31,4 +33,9 @@ body{
 .page-container{
     max-width: 1430px;
     margin: 0 auto;
+    padding: 25px;
 }
+
+
+
+

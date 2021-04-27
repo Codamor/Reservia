@@ -5,6 +5,9 @@
       <meta name="viewport" content="width=device-width, initial-scale=1">
       <title>Reservia - Hébergement pour des vacances de rêve</title>
       <link rel="stylesheet" type="text/css" href="css/reservia.css">
+      <link rel="stylesheet" type="text/css" href="css/header/header.css">
+      <link rel="stylesheet" type="text/css" href="css/header/search.css">
+      <link rel="stylesheet" type="text/css" href="css/header/filters.css">
       <link rel="stylesheet" type="text/css" href="css/fonts.css">
       <link rel="stylesheet" href="//use.fontawesome.com/releases/v5.13.0/css/all.css">
   </head>
@@ -26,7 +29,7 @@
                             <a class="menu__link" href="#activites" title="Activités">Activités</a>
                         </li>
                         <li class="menu__item">
-                            <a class="menu__link" href="#inscription" title="Hébergements">S'inscrire</a>
+                            <a class="menu__link" href="#" title="Hébergements">S'inscrire</a>
                         </li>
                     </ul>
                 </div>
@@ -39,14 +42,14 @@
                 <h2 class="search__sub-title">
                     En plein centre ville ou en pleine nature
                 </h2>
-                <form class="search__action-bar" action="#">
-                    <div class="search__icon">
+                <form class="search-bar" action="#">
+                    <div class="search-bar__icon">
                         <i class="fas fa-map-marker-alt"></i>
                     </div>
-                    <div class="search__input">
-                        <input id="search-bar__input" class="search-bar__input" name="search" type="text" placeholder="Où souhaitez - vous séjourner ?">
+                    <div class="search-bar__text">
+                        <input id="search-bar__input" class="search-bar__input" name="search" type="text" placeholder="Marseille, France">
                     </div>
-                    <button class="search__button" type="submit">Rechercher</button>
+                    <button class="search-bar__button" type="submit">Rechercher</button>
                 </form>
             </div>
 
@@ -55,21 +58,24 @@
                     Filtres
                 </h3>
                 <div class="filters__container">
-                    <input type="checkbox" id="economique" class="checkbox">
-                    <label for="economique"><span class="checkbox__title">Economique</span></label>
+                    <div class="filters__box">
+                        <input type="checkbox" id="economique" class="checkbox economique">
+                        <label for="economique"><span class="checkbox__title">Economique</span></label>
+                    </div>
+                    <div class="filters__box">
+                        <input type="checkbox" id="familial" class="checkbox familial">
+                        <label for="familial"><span class="checkbox__title">Familial</span></label>
+                    </div>
+                    <div class="filters__box">
+                        <input type="checkbox" id="romantique" class="checkbox romantique">
+                        <label for="romantique"><span class="checkbox__title">Romantique</span></label>
+                    </div>
+                    <div class="filters__box">
+                        <input type="checkbox" id="animaux" class="checkbox animaux">
+                        <label for="animaux"><span class="checkbox__title">Animaux autorisés</span></label>
+                    </div>
                 </div>
-                <div class="filters__container">
-                    <input type="checkbox" id="familial" class="checkbox">
-                    <label for="familial"><span class="checkbox__title">Familial</span></label>
-                </div>
-                <div class="filters__container">
-                    <input type="checkbox" id="romantique" class="checkbox">
-                    <label for="romantique"><span class="checkbox__title">Romantique</span></label>
-                </div>
-                <div class="filters__container">
-                    <input type="checkbox" id="animaux" class="checkbox">
-                    <label for="animaux"><span class="checkbox__title">Animaux autorisés</span></label>
-                </div>
+
             </div>
 
             <div class="information">

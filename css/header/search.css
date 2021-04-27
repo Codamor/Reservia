@@ -1,0 +1,84 @@
+/*------------------------------------------------*\
+    Project name: Reservia
+    Author: Adelino ARAUJO
+
+    SEARCH styles
+\*----------------------------------------------- */
+
+
+.search{
+    width: 635px;
+    height: auto;
+}
+
+.search__title{
+    font-size: 1.3em;
+}
+
+.search__sub-title{
+    font-size: 1em;
+    font-weight: normal;
+}
+
+/*--------------------------------------- *\
+    SEARCH-BAR styles
+\*----------------------------------------*/
+
+.search-bar{
+    width: auto;
+    height: auto;
+    display: flex;
+}
+
+.search-bar__icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 53px;
+    height: 50px;
+    border-radius: 13px 0 0 13px;
+    background-color: #f2f2f2;
+}
+
+.fa-map-marker-alt{
+    font-size: 1.3em;
+}
+
+.search-bar__text{
+    width: 235px;
+    height: auto;
+}
+
+.search-bar__input {
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    border: none;
+    outline: none;
+    font-size: 0.8em;
+    text-align: center;
+    perspective: 600px;
+}
+
+.search-bar__input:focus::placeholder{
+    color: white;
+    transform: rotateX(90deg);
+    transition: 0.5s;
+}
+
+.search-bar__button{
+    width: 135px;
+    height: 50px;
+    border-radius: 0 13px 13px 0;
+    border: none;
+    outline: none;
+    background-color: #0264fd;
+    font-size: 1em;
+    color: white ;
+}
+
+.search-bar__button:hover{
+    background-color: #0a00c7;
+    transition: 0.3s;
+    cursor: pointer;
+}

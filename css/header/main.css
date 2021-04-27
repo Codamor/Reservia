@@ -1,0 +1,45 @@
+/*------------------------------------------------*\
+    Project name: Reservia
+    Author: Adelino ARAUJO
+
+    HEADER styles
+\*----------------------------------------------- */
+
+
+.header{
+    max-width: 100%;
+    height: auto;
+}
+
+.banner{
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+
+/*--------------------------------------- *\
+    MENU styles
+\*----------------------------------------*/
+.menu{
+    width: 400px;
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+}
+
+.menu__link{
+    display: block;
+    font-size: 1em;
+    text-decoration: none;
+}
+
+.menu__item{
+    padding-top: 25px;
+}
+
+.menu__item:hover{
+    box-shadow: 0 -2px 0 blue;
+}
+
+
