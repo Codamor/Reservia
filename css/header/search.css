@@ -9,10 +9,11 @@
 .search{
     width: 635px;
     height: auto;
+    padding-bottom: 10px ;
 }
 
 .search__title{
-    font-size: 1.3em;
+    font-size: 1.2em;
 }
 
 .search__sub-title{
@@ -27,6 +28,7 @@
 .search-bar{
     width: auto;
     height: auto;
+    padding: 10px 0;
     display: flex;
 }
 
@@ -58,6 +60,13 @@
     font-size: 0.8em;
     text-align: center;
     perspective: 600px;
+}
+
+.search-bar__input::placeholder{
+    font-family: Raleway;
+    font-weight: 900;
+    font-size: 1.2em;
+    color: black;
 }
 
 .search-bar__input:focus::placeholder{

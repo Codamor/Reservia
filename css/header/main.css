@@ -12,20 +12,29 @@
 }
 
 .banner{
+    max-width: 100%;
+    height: auto;
     display: flex;
     justify-content: space-between;
-    align-items: baseline;
+    align-items: center;
 }
 
 
-/*--------------------------------------- *\
+/*------------------------ *\
     MENU styles
-\*----------------------------------------*/
+\*-------------------------*/
 .menu{
     width: 400px;
     display: flex;
     justify-content: space-evenly;
     list-style-type: none;
+}
+.menu__link{
+    padding: 30px 0;
+}
+
+.menu__link:hover{
+    box-shadow: 0 -2px 0 blue;
 }
 
 .menu__link{
@@ -34,12 +43,35 @@
     text-decoration: none;
 }
 
-.menu__item{
-    padding-top: 25px;
+
+/*------------------------ *\
+    INFORMATION styles
+\*-------------------------*/
+.information__title{
+    display: flex;
+    align-items: center;
+    padding: 10px 0;
+    font-size: 0.8em;
+    font-weight: normal;
 }
 
-.menu__item:hover{
-    box-shadow: 0 -2px 0 blue;
+.information__title::before{
+    display: block;
+    width: 15px;
+    height: 15px;
+    margin-right: 10px;
+    border-radius: 50px;
+    border: solid thin lightgray;
+    font-family: "Font Awesome 5 Free";
+    content: "\f129";
+    text-align: center;
+    font-size: 12px;
+    font-weight: 900;
+    color: #465fff;
 }
+
+
+
+
 
 

@@ -156,7 +156,7 @@ input[type="checkbox"].animaux+ label {
 }
 
 input[type="checkbox"].animaux + label:before {
-    content: "\f53a";
+    content: "\f6d3";
 }
 
 input[type="checkbox"].animaux:hover + label::before{
