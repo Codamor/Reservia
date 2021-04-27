@@ -1,0 +1,46 @@
+/*------------------------------------------------*\
+    Project name: Reservia
+    Author: Adelino ARAUJO
+
+    HEBERGEMENTS styles
+\*----------------------------------------------- */
+
+
+
+/*------------------------ *\
+    HEBERGEMENTS styles
+\*-------------------------*/
+
+.hebergements{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    column-gap: 30px;
+    max-width: 100%;
+}
+
+.hebergements__principaux{
+    padding: 30px;
+    border-radius: 25px;
+    background-color: #f2f2f2;
+}
+
+.hebergements__grille{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+/*-------------------------- *\
+    HEBERGEMENTS POPULAIRES
+\*---------------------------*/
+
+.hebergements-populaires{
+    padding: 30px;
+    border-radius: 25px;
+    background-color: #f2f2f2;
+}
+
+.hebergements-populaires__grille{
+    display: flex;
+    flex-direction: column;
+}
