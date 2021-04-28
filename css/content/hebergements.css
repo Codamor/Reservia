@@ -11,6 +11,7 @@
     grid-template-columns: 2fr 1fr;
     column-gap: 30px;
     max-width: 100%;
+    margin: 40px 0;
 }
 
 .hebergements__button{
