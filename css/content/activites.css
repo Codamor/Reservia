@@ -1,0 +1,80 @@
+/*------------------------------------------------*\
+    Project name: Reservia
+    Author: Adelino ARAUJO
+
+    ACTIVITES styles
+\*----------------------------------------------- */
+
+/***** COMMON *****/
+
+.activites{
+    width: 100%;
+    margin: 100px 0;
+}
+
+.activites__title{
+    margin: 30px 0;
+}
+
+.activites__grille{
+    display: flex;
+    flex-wrap: wrap;
+}
+.activite-card{
+    width: 300px;
+    height: auto;
+    border-radius: 25px;
+    box-sizing: border-box;
+    border-radius: 25px;
+    box-shadow: 5px 5px 10px grey ;
+    overflow: hidden;
+}
+
+.activite-card__image{
+    overflow: hidden;
+}
+
+.activite-card__informations{
+    width: auto;
+    height: 55px;
+    border-radius: 0 0 25px 25px;
+    overflow: hidden;
+}
+
+.activite-card__title{
+    padding: 10px 0 0 10px;
+}
+
+
+/****** LOW *****/
+
+.activite-card{
+    height: 165px;
+}
+
+.activite-card__image--low{
+    height: 110px;
+}
+
+/****** MEDIUM *****/
+
+.activite-card--medium{
+    height: 235px;
+}
+.activite-card__image--medium{
+    height: 185px;
+}
+
+/****** HIGH *****/
+
+.activite-card--high{
+    height: 445px;
+}
+.activite-card__image--high{
+    height: 390px;
+}
+
+.activite-card__image--high img{
+    height: 100%;
+    object-fit: cover;
+}
