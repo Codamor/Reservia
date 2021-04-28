@@ -30,11 +30,15 @@
 .hebergements__grille{
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+
 }
 
 .hebergement-card{
     width: 245px;
     height: 200px;
+    margin: 20px 0;
     padding: 7px;
     border-radius: 25px;
     box-sizing: border-box;
@@ -53,9 +57,30 @@
 
 .hebergement-card__informations{
     width: auto;
+    margin-left: 5px;
     height: 75px;
     border-radius: 0 0 25px 25px;
     overflow: hidden;
+}
+
+.hebergement-card__title{
+    font-size: 1em;
+    margin: 5px 0 3px 0;
+}
+
+.hebergement-card__price{
+    font-size: 0.8em;
+    font-weight: normal;
+}
+
+.hebergement-card__review{
+    margin: 5px 0;
+    font-size: 0.8em;
+    color: #0264fd;
+}
+
+.hebergement-card__review--grey-star{
+    color: lightgray;
 }
 
 
