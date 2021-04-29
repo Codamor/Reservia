@@ -13,10 +13,12 @@
 }
 
 .search__title{
+    margin: 10px 0;
     font-size: 1.2em;
 }
 
 .search__sub-title{
+    margin: 10px 0;
     font-size: 1em;
     font-weight: normal;
 }

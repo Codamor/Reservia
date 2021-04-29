@@ -98,6 +98,21 @@
     background-color: #f2f2f2;
 }
 
+.hebergements-poplaires__icon{
+    width: 350px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.hebergements-poplaires__icon::after{
+    font-family: "Font Awesome 5 Free";
+    content: "\f201";
+    text-align: center;
+    font-size: 25px;
+    font-weight: 900;
+    color: #000;
+}
+
 .hebergements-populaires__grille{
     display: flex;
     flex-direction: column;
