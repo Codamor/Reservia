@@ -13,9 +13,7 @@
 
 .activites__grille{
     display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    width: 100%;
+    flex-flow: column wrap;
     height: 550px;
 }
 .activite__card{
