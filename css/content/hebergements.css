@@ -6,12 +6,19 @@
 \*----------------------------------------------- */
 
 
+
 .hebergements{
     display: grid;
     grid-template-columns: 2fr 1fr;
     column-gap: 30px;
     max-width: 100%;
     margin: 40px 0;
+}
+
+.hebergements__content{
+    padding: 30px;
+    border-radius: 25px;
+    background-color: #f2f2f2;
 }
 
 .hebergements__button{
@@ -21,15 +28,38 @@
     font-weight: 900;
 }
 
-/*-------------------------------- *\
-    HEBERGEMENTS PRINCIPAUX styles
-\*---------------------------------*/
-
-.hebergements__principaux{
-    padding: 30px;
+.hebergement__card{
     border-radius: 25px;
-    background-color: #f2f2f2;
+    box-sizing: border-box;
+    background-color: white;
+    border-radius: 25px;
+    box-shadow: 5px 5px 10px grey ;
+    overflow: hidden;
 }
+
+.hebergement__title{
+    font-size: 1em;
+    margin: 5px 0 3px 0;
+}
+
+.hebergement__price{
+    font-size: 0.8em;
+    font-weight: normal;
+}
+
+.hebergement__review{
+    margin: 5px 0;
+    font-size: 0.8em;
+    color: #0264fd;
+}
+
+.hebergement__review--grey-star{
+    color: lightgray;
+}
+
+/*-------------------------------- *\
+    HEBERGEMENTS PRINCIPAUX
+\*---------------------------------*/
 
 .hebergements__grille{
     display: flex;
@@ -39,27 +69,21 @@
 
 }
 
-.hebergement-card{
+.hebergement__card--principal{
     width: 245px;
     height: 200px;
     margin: 20px 0;
     padding: 7px;
-    border-radius: 25px;
-    box-sizing: border-box;
-    background-color: white;
-    border-radius: 25px;
-    box-shadow: 5px 5px 10px grey ;
-    overflow: hidden;
 }
 
-.hebergement-card__image{
+.hebergement__image{
     width: auto;
     height: 110px;
     border-radius: 25px 25px 0 0;
     overflow: hidden;
 }
 
-.hebergement-card__informations{
+.hebergement__informations{
     width: auto;
     margin-left: 5px;
     height: 75px;
@@ -67,35 +91,49 @@
     overflow: hidden;
 }
 
-.hebergement-card__title{
-    font-size: 1em;
-    margin: 5px 0 3px 0;
-}
-
-.hebergement-card__price{
-    font-size: 0.8em;
-    font-weight: normal;
-}
-
-.hebergement-card__review{
-    margin: 5px 0;
-    font-size: 0.8em;
-    color: #0264fd;
-}
-
-.hebergement-card__review--grey-star{
-    color: lightgray;
-}
-
 
 /*-------------------------- *\
     HEBERGEMENTS POPULAIRES
 \*---------------------------*/
 
-.hebergements-populaires{
-    padding: 30px;
-    border-radius: 25px;
-    background-color: #f2f2f2;
+.hebergements__grille--populaire{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.hebergement__card--populaire{
+    display: flex;
+    flex-shrink: 0;
+    width: 345px;
+    height: 145px;
+    margin: 20px 0;
+    padding: 5px;
+}
+
+.hebergement__image--populaire{
+    flex-shrink: 0;
+    width: 125px;
+    height: 135px;
+    border-radius: 25px 0 0 25px;
+    overflow: hidden;
+}
+
+.hebergement__image--populaire img{
+    width: 100% ; /* TODO ask if this trick is ok for last popular item image */
+    height: 100%;
+    object-fit: cover;
+}
+
+.hebergement__informations--populaire{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: auto;
+    height: 135px;
+    margin: 0 0 0 10px ;
+    border-radius: 0 0 25px 0;
+    overflow: hidden;
 }
 
 .hebergements-poplaires__icon{
@@ -113,48 +151,4 @@
     color: #000;
 }
 
-.hebergements-populaires__grille{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
 
-.hebergement-populaires-card{
-    display: flex;
-    flex-shrink: 0;
-    width: 345px;
-    height: 145px;
-    margin: 20px 0;
-    padding: 5px;
-    border-radius: 25px;
-    box-sizing: border-box;
-    background-color: white;
-    border-radius: 25px;
-    box-shadow: 5px 5px 10px grey ;
-    overflow: hidden;
-}
-
-.hebergement-populaires-card__image{
-    flex-shrink: 0;
-    width: 125px;
-    height: 135px;
-    border-radius: 25px 0 0 25px;
-    overflow: hidden;
-}
-
-.hebergement-populaires-card__image img{
-    width: 100% ; /* TODO ask if this trick is ok for last popular item image */
-    height: 100%;
-    object-fit: cover;
-}
-
-.hebergement-populaires-card__informations{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    width: auto;
-    height: 135px;
-    margin: 0 0 0 10px ;
-    border-radius: 0 0 25px 0;
-    overflow: hidden;
-}

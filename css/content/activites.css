@@ -13,14 +13,11 @@
 
 .activites__grille{
     display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    width: 100%;
+    flex-flow: column wrap;
     height: 550px;
 }
-.activite-card{
+.activite__card{
     width: 300px;
-    height: auto;
     margin: 10px 10px;
     border-radius: 25px;
     box-sizing: border-box;
@@ -29,51 +26,51 @@
     overflow: hidden;
 }
 
-.activite-card__image{
+.activite__image{
     overflow: hidden;
 }
 
-.activite-card__informations{
+.activite__informations{
     width: auto;
     height: 55px;
     border-radius: 0 0 25px 25px;
     overflow: hidden;
 }
 
-.activite-card__title{
+.activite__title{
     padding: 10px 0 0 10px;
 }
 
 
 /****** LOW *****/
 
-.activite-card{
+.activite__card--low{
     height: 165px;
 }
 
-.activite-card__image--low{
-    height: 110px;
+.activite__image--low{
+    height: 115px;
 }
 
 /****** MEDIUM *****/
 
-.activite-card--medium{
+.activite__card--medium{
     height: 235px;
 }
-.activite-card__image--medium{
+.activite__image--medium{
     height: 185px;
 }
 
 /****** HIGH *****/
 
-.activite-card--high{
+.activite__card--high{
     height: 445px;
 }
-.activite-card__image--high{
+.activite__image--high{
     height: 390px;
 }
 
-.activite-card__image--high img{
+.activite__image--high img{
     height: 100%;
     object-fit: cover;
 }
