@@ -33,7 +33,30 @@
         right: 30px;
     }
 
-  
+    /*-----------------*\
+           SEARCH
+    \*-----------------*/
+
+
+    /*-----------------*\
+          FILTERS
+   \*-----------------*/
+
+    .filters__container{
+        flex-wrap: wrap;
+        align-items: flex-start;
+    }
+
+    .filters__title{
+        flex-basis: 100%;
+        margin: 15px 0;
+    }
+
+    .filters__box{
+        margin: 5px;
+    }
+
+
 
 
 
