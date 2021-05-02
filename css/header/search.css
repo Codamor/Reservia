@@ -7,7 +7,7 @@
 
 
 .search{
-    width: 635px;
+    max-width: 635px;
     height: auto;
     padding-bottom: 10px ;
 }
