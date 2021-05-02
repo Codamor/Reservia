@@ -8,7 +8,7 @@
 @media screen and (max-width: 960px){
 
     .page-container{
-        padding: 15px;
+        padding: 0px;
     }
 
     /*-----------------*\
@@ -40,7 +40,7 @@
 
     /*-----------------*\
           FILTERS
-   \*-----------------*/
+    \*-----------------*/
 
     .filters__container{
         flex-wrap: wrap;
@@ -56,6 +56,41 @@
         margin: 5px;
     }
 
+
+    /*------------------*\
+         HEBERGEMENTS
+    \*------------------*/
+
+    .hebergements{
+        grid-template-columns: 1fr;
+    }
+
+    .hebergements__content{
+        padding: 0;
+    }
+
+    .hebergements__content{
+        background-color: white;
+    }
+
+    .hebergement__card{
+        width: 100%;
+    }
+
+    .hebergements__button{
+        background-color: white;
+    }
+
+    /*------------------*\
+          ACTIVITES
+    \*------------------*/
+
+    .activites__grille{
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        height: auto;
+    }
 
 
 
