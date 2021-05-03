@@ -78,7 +78,11 @@ body{
 }
 
 .menu__link:hover{
-    box-shadow: 0 -2px 0 blue;
+    box-shadow: 0 -2px 0 #465fff;
+}
+
+.menu__link:visited{
+    box-shadow: 0 -2px 0 #f2f2f2;
 }
 
 .menu__link{

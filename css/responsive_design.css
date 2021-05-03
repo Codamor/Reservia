@@ -7,12 +7,20 @@
 
 @media screen and (max-width: 960px){
 
+    body{
+        margin: 0;
+    }
+
     .page-container{
         padding: 0px;
     }
 
+    /*------------------------------------------------*\
+                          HEADER
+    \*------------------------------------------------*/
+
     /*-----------------*\
-           HEADER
+          BANNER
     \*-----------------*/
 
     .banner{
@@ -21,26 +29,63 @@
 
     .banner__logo{
         align-self: flex-start;
+        padding: 20px 0 0 20px;
     }
 
+    .banner__menu{
+        width: 100%;
+    }
+
+    /*-----------------*\
+            MENU
+    \*-----------------*/
+
     .menu{
+        width: 100%;
+        justify-content: normal;
         padding: 0;
+    }
+
+    .menu li:nth-child(1), .menu li:nth-child(2){
+        width: 50%;
+        text-align: center;
     }
 
     .menu li:last-child{
         position: absolute;
         top: 10px;
         right: 30px;
+        font-family: "Raleway Bold";
+        color: #465fff;
+    }
+
+    .menu__link:hover{
+        box-shadow: 0 2px  #465fff;
+    }
+
+    .menu__link:visited{
+        box-shadow: 0 2px  #f2f2f2;
     }
 
     /*-----------------*\
            SEARCH
     \*-----------------*/
 
+    .search{
+        width: 100%;
+        padding: 20px;
+    }
+
+
+
 
     /*-----------------*\
           FILTERS
     \*-----------------*/
+
+    .filters__container{
+        padding: 20px;
+    }
 
     .filters__container{
         flex-wrap: wrap;
@@ -56,29 +101,58 @@
         margin: 5px;
     }
 
+    /*-----------------*\
+         INFORMATION
+    \*-----------------*/
 
-    /*------------------*\
+    .information{
+        padding: 20px;
+    }
+
+
+    /*------------------------------------------------*\
+                        MAIN
+    \*------------------------------------------------*/
+
+    /*-----------------*\
          HEBERGEMENTS
-    \*------------------*/
+    \*-----------------*/
 
     .hebergements{
         grid-template-columns: 1fr;
     }
 
-    .hebergements__content{
-        padding: 0;
+    .principal{
+        order: 2;
+        background: white;
     }
 
-    .hebergements__content{
-        background-color: white;
+    .populaire{
+        order: 1;
+        border-radius: 0;
+    }
+
+    .hebergements__grille--populaire{
+        flex-direction: row;
+        flex-wrap: wrap;
     }
 
     .hebergement__card{
         width: 100%;
+        margin: 20px 0;
+        padding: 5px;
+    }
+
+    .title{
+        margin: 20px auto;
     }
 
     .hebergements__button{
         background-color: white;
+    }
+
+    .hebergements-poplaires__icon{
+        width: 100%;
     }
 
     /*------------------*\
@@ -102,16 +176,13 @@
     }
 
     .footer__box{
-        margin: 0;
+        flex-basis: 100%;
+        margin: 20px;
         padding: 0;
     }
 
-    .footer__box{
-        flex-basis: 100%;
-    }
-
     .footer__box:not(:first-child){
-        margin: 0;
+        margin: 20px;
     }
 
 }
