@@ -30,6 +30,10 @@
     overflow: hidden;
 }
 
+.activite__image img{
+    object-fit: cover;
+}
+
 .activite__informations{
     width: auto;
     margin: 5px;

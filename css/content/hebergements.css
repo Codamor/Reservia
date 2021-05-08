@@ -83,6 +83,10 @@
     overflow: hidden;
 }
 
+.hebergement__image img{
+    object-fit: cover;
+}
+
 .hebergement__informations{
     width: auto;
     margin: 10px 10px;
