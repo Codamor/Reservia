@@ -158,11 +158,6 @@
          HEBERGEMENTS
     \*-----------------*/
 
-    .hebergements{
-        grid-template-columns: 1fr;
-        justify-content: center;
-    }
-
     .hebergements__content{
         padding: 10px;
     }
