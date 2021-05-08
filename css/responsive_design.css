@@ -206,6 +206,11 @@
          HEBERGEMENTS
     \*------------------*/
 
+    .hebergements{
+        display: flex;
+        flex-direction: column;
+    }
+
     .hebergement__card{
         min-width: 100%;
         margin: 20px 0;
