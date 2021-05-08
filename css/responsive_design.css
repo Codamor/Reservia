@@ -112,7 +112,6 @@
         font-family: "Raleway Bold", Arial, SansSerif;
     }
 
-
     /*-----------------*\
            SEARCH
     \*-----------------*/
@@ -162,11 +161,6 @@
         padding: 10px;
     }
 
-    .hebergements__grille--populaire{
-        flex-direction: row;
-        flex-wrap: wrap;
-    }
-
     .hebergement__image{
         width: 100%;
     }
@@ -206,11 +200,6 @@
          HEBERGEMENTS
     \*------------------*/
 
-    .hebergements{
-        display: flex;
-        flex-direction: column;
-    }
-
     .hebergement__card{
         min-width: 100%;
         margin: 20px 0;
@@ -219,6 +208,10 @@
 
     .populaire{
         border-radius: 0;
+    }
+
+    .hebergement__card--populaire{
+        width: 100%;
     }
 
     /*------------------*\
