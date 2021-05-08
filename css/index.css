@@ -15,12 +15,13 @@
 }
 
 img{
-    max-width: 100%;
+    width: 100%;
     height: auto;
 }
 
 h1, h2, h3{
     margin: 0;
+    padding: 0;
 }
 
 
@@ -36,7 +37,7 @@ body{
 }
 
 .page-container{
-    max-width: 1430px;
+    max-width: 1440px;
     margin: 0 auto;
     padding: 25px;
 }
@@ -78,7 +79,7 @@ body{
 }
 
 .menu__link:hover{
-    box-shadow: 0 -2px 0 blue;
+    box-shadow: 0 -2px 0 #0065FC;
 }
 
 .menu__link{
@@ -115,7 +116,7 @@ body{
     text-align: center;
     font-size: 12px;
     font-weight: 900;
-    color: #465fff;
+    color: #0065FC;
 }
 
 /*-------------- *\
@@ -124,6 +125,7 @@ body{
 
 .footer{
     display: flex;
+    margin-top: 50px;
     padding: 50px 50px;
     flex-wrap: wrap;
     background-color: #f2f2f2;

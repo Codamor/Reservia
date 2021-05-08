@@ -32,8 +32,8 @@ input[type="checkbox"].checkbox + label {
     display: inline;
     height: 40px;
     border-radius: 50px;
-    border: solid 1px lightgray;
-    background-color: white;
+    border: solid 1px #F2F2F2;
+    background-color: #fff;
     transition: 1s;
 }
 
@@ -56,7 +56,7 @@ input[type="checkbox"].checkbox + label:before {
     background-color: #cceeff;
     font-family: "Font Awesome 5 Free";
     font-size: 20px;
-    color: #465fff;
+    color: #0065FC;
     font-weight: 900;
     position: absolute;
     transition: 1s;
