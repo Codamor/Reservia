@@ -13,13 +13,13 @@
 
 .activites__grille{
     display: flex;
-    flex-flow: column wrap;
-    height: 550px;
+    flex-wrap: wrap;
+    justify-content: space-between;
 }
+
 .activite__card{
-    width: 300px;
+    width: 305px;
     margin: 10px 10px;
-    border-radius: 25px;
     box-sizing: border-box;
     border-radius: 25px;
     box-shadow: 5px 5px 10px grey ;
@@ -32,45 +32,89 @@
 
 .activite__informations{
     width: auto;
-    height: 55px;
+    margin: 5px;
     border-radius: 0 0 25px 25px;
-    overflow: hidden;
+    font-size: 0.9em;
 }
 
 .activite__title{
     padding: 10px 0 0 10px;
 }
 
+/*****  ACTIVITES BOX *****/
 
-/****** LOW *****/
-
-.activite__card--low{
-    height: 165px;
+.activite__box--medium{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: auto;
 }
 
-.activite__image--low{
-    height: 115px;
-}
 
-/****** MEDIUM *****/
+/****** VIEUX PORT *****/
 
-.activite__card--medium{
-    height: 235px;
-}
-.activite__image--medium{
-    height: 185px;
-}
-
-/****** HIGH *****/
-
-.activite__card--high{
+.activite__card--vieux-port{
     height: 445px;
 }
-.activite__image--high{
+
+.activite__image--vieux-port{
     height: 390px;
 }
 
-.activite__image--high img{
+.activite__image--vieux-port img{
     height: 100%;
     object-fit: cover;
+}
+
+
+/****** FORT DE POMEGUES *****/
+
+.activite__card--fort-pomegues{
+    height: 235px;
+}
+.activite__image--fort-pomegues{
+    height: 180px;
+}
+
+/****** ILES DU FRIOUL *****/
+
+.activite__card--iles-frioul{
+    height: 165px;
+}
+.activite__image--iles-frioul{
+    height: 110px;
+}
+
+
+/****** PARC NATIONAL DES CALANQUES   *****/
+
+.activite__card--calanques{
+    height: 445px;
+}
+.activite__image--calanques{
+    height: 390px;
+}
+
+.activite__image--calanques img{
+    height: 100%;
+    object-fit: cover;
+}
+
+/****** NOTRE DAME DE LA GARDE *****/
+
+.activite__card--notre-dame{
+    height: 192px;
+}
+.activite__image--notre-dame{
+    height: 138px;
+}
+
+
+/****** PARC DE LONGCHAMP *****/
+
+.activite__card--parc-lonchamp{
+    height: 205px;
+}
+.activite__image--parc-lonchamp{
+    height: 152px;
 }

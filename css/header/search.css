@@ -72,7 +72,7 @@
 }
 
 .search-bar__input:focus::placeholder{
-    color: white;
+    color: #fff;
     transform: rotateX(90deg);
     transition: 0.5s;
 }
@@ -83,13 +83,13 @@
     border-radius: 0 13px 13px 0;
     border: none;
     outline: none;
-    background-color: #0264fd;
+    background-color: #0065FC;
     font-size: 1em;
-    color: white ;
+    color: #fff ;
 }
 
 .search-bar__button:hover{
-    background-color: #0a00c7;
+    background-color: #0065FC;
     transition: 0.3s;
     cursor: pointer;
 }

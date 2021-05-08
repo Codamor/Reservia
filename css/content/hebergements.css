@@ -18,7 +18,7 @@
 .hebergements__content{
     padding: 30px;
     border-radius: 25px;
-    background-color: #f2f2f2;
+    background-color: #F2F2F2;
 }
 
 .hebergements__button{
@@ -33,7 +33,7 @@
     box-sizing: border-box;
     background-color: white;
     border-radius: 25px;
-    box-shadow: 5px 5px 10px grey ;
+    box-shadow: 3px 3px 8px lightgrey ;
     overflow: hidden;
 }
 
@@ -50,11 +50,11 @@
 .hebergement__review{
     margin: 5px 0;
     font-size: 0.8em;
-    color: #0264fd;
+    color: #0065FC;
 }
 
 .hebergement__review--grey-star{
-    color: lightgray;
+    color: #F2F2F2;
 }
 
 /*-------------------------------- *\
@@ -70,14 +70,14 @@
 }
 
 .hebergement__card--principal{
-    width: 245px;
+    width: 246px;
     height: 200px;
     margin: 20px 0;
-    padding: 7px;
+    padding: 5px;
 }
 
 .hebergement__image{
-    width: auto;
+    width: 236px;
     height: 110px;
     border-radius: 25px 25px 0 0;
     overflow: hidden;
@@ -85,9 +85,7 @@
 
 .hebergement__informations{
     width: auto;
-    margin-left: 5px;
-    height: 75px;
-    border-radius: 0 0 25px 25px;
+    margin: 10px 10px;
     overflow: hidden;
 }
 
@@ -105,22 +103,20 @@
 .hebergement__card--populaire{
     display: flex;
     flex-shrink: 0;
-    width: 345px;
-    height: 145px;
+    width: 343px;
+    height: 144px;
     margin: 20px 0;
     padding: 5px;
 }
 
 .hebergement__image--populaire{
-    flex-shrink: 0;
-    width: 125px;
+    width: 126px;
     height: 135px;
     border-radius: 25px 0 0 25px;
     overflow: hidden;
 }
 
 .hebergement__image--populaire img{
-    width: 100% ; /* TODO ask if this trick is ok for last popular item image */
     height: 100%;
     object-fit: cover;
 }
@@ -129,9 +125,7 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    width: auto;
-    height: 135px;
-    margin: 0 0 0 10px ;
+    margin: 10px 0 0 20px ;
     border-radius: 0 0 25px 0;
     overflow: hidden;
 }
