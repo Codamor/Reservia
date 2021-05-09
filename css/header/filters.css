@@ -1,11 +1,7 @@
 /*------------------------------------------------*\
     Project name: Reservia
     Author: Adelino ARAUJO
-
-    FILTERS styles
 \*----------------------------------------------- */
-
-
 
 .filters__container, .filters__box{
     display: flex;
