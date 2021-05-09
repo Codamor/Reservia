@@ -105,6 +105,11 @@
 
     .menu__link{
         padding: 35px 0 20px 0;
+        box-shadow: 0 2px  #F2F2F2;
+    }
+
+    .menu__item:last-child .menu__link{
+        box-shadow: none;
     }
 
     .menu__link:hover{
