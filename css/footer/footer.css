@@ -31,4 +31,13 @@
     color: #000;
 }
 
+.footer__link:visited{
+    color: #F2F2F2;
+}
+
+.footer__link:hover{
+    text-decoration: underline;
+    color: #0065FC;
+}
+
 
