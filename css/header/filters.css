@@ -109,7 +109,7 @@ input[type="checkbox"].familial + label:before {
 }
 
 .checkbox__title{
-    right: 26px;
+    right: 26px;        
 }
 
 input[type="checkbox"].familial:hover + label::before{
@@ -157,7 +157,7 @@ input[type="checkbox"].animaux + label:before {
 }
 
 input[type="checkbox"].animaux:hover + label::before{
-    transform: translate(156px) rotate(360deg);
+    transform: translate(159px) rotate(360deg);
 }
 
 input[type="checkbox"].animaux:hover + label .checkbox__title {

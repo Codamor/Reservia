@@ -36,7 +36,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 53px;
+    min-width: 53px;
     height: 50px;
     border-radius: 13px 0 0 13px;
     background-color: #f2f2f2;
@@ -87,7 +87,7 @@
 }
 
 .search-bar__button:hover{
-    background-color: #0065FC;
+    background-color: #666dff;
     transition: 0.3s;
     cursor: pointer;
 }

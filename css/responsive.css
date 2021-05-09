@@ -112,6 +112,10 @@
         font-family: "Raleway Bold", Arial, SansSerif;
     }
 
+    .menu__item:last-child .menu__link:hover{
+        box-shadow: none;
+    }
+
     /*-----------------*\
            SEARCH
     \*-----------------*/
@@ -121,11 +125,6 @@
         margin: 10px 0 0 0;
         padding: 0 20px;
     }
-
-    .search-bar__icon{
-        width: 65px;
-    }
-
 
     /*-----------------*\
           FILTERS
@@ -154,12 +153,16 @@
     \*-----------------*/
 
     .information{
-        padding: 20px;
+        padding: 0 20px;
     }
 
     /*-----------------*\
          HEBERGEMENTS
     \*-----------------*/
+
+    .hebergements{
+        margin: 0;
+    }
 
     .hebergements__content{
         padding: 10px;

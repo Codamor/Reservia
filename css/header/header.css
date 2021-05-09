@@ -44,17 +44,20 @@
     box-shadow: 0 -2px 0 #0065FC;
 }
 
-.menu__link:visited{
-    box-shadow: 0 -2px 0 #f2f2f2;
+.menu__item:last-child .menu__link:hover{
+    box-shadow: none;
 }
 
 .menu__link:visited{
+    box-shadow: 0 -2px 0 #f2f2f2;
     color: #000;
 }
 
 .menu__item:last-child .menu__link{
     font-family: "Raleway Bold", Arial, SansSerif;
 }
+
+
 
 
 /*---------------------- *\
