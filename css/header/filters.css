@@ -149,7 +149,7 @@ input[type="checkbox"].romantique:hover + label .checkbox__title{
     right: 20px;
 }
 input[type="checkbox"].animaux+ label {
-    width: 190px;
+    width: 200px;
 }
 
 input[type="checkbox"].animaux + label:before {
@@ -157,9 +157,9 @@ input[type="checkbox"].animaux + label:before {
 }
 
 input[type="checkbox"].animaux:hover + label::before{
-    transform: translate(150px) rotate(360deg);
+    transform: translate(160px) rotate(360deg);
 }
 
 input[type="checkbox"].animaux:hover + label .checkbox__title{
-    transform: translate(-30px);
+    transform: translate(-45px);
 }
