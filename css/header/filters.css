@@ -160,6 +160,7 @@ input[type="checkbox"].animaux:hover + label::before{
     transform: translate(156px) rotate(360deg);
 }
 
-input[type="checkbox"].animaux:hover + label .checkbox__title{
+input[type="checkbox"].animaux:hover + label .checkbox__title {
     transform: translate(-42px);
 }
+
