@@ -116,6 +116,11 @@
         box-shadow: none;
     }
 
+    .menu__link:visited{
+        box-shadow: 0 2px  #F2F2F2;
+        font-family: "Raleway Bold", Arial, SansSerif;
+    }
+
     /*-----------------*\
            SEARCH
     \*-----------------*/
@@ -124,6 +129,10 @@
         width: 100%;
         margin: 10px 0 0 0;
         padding: 0 20px;
+    }
+
+    .search-bar__text, .search-bar__button{
+        font-size: 0.8em;
     }
 
     /*-----------------*\
