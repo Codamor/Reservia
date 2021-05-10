@@ -97,7 +97,7 @@
 
     .menu li:last-child{
         position: absolute;
-        top: 5px;
+        top: 2px;
         right: 10px;
         font-family: "Raleway Bold", Arial, SansSerif;
         color: #0065FC;
