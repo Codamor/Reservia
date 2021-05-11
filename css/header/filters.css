@@ -3,6 +3,9 @@
     Author: Adelino ARAUJO
 \*----------------------------------------------- */
 
+.filters__container{
+    margin: 20px 0;
+}
 .filters__container, .filters__box{
     display: flex;
     align-items: center;
@@ -27,7 +30,7 @@ input[type="checkbox"].checkbox {
 input[type="checkbox"].checkbox + label {
     position: relative;
     display: inline;
-    height: 40px;
+    height: 48px;
     border-radius: 50px;
     border: solid 1px #F2F2F2;
     background-color: #fff;
@@ -36,9 +39,9 @@ input[type="checkbox"].checkbox + label {
 
 .checkbox__title{
     position: absolute;
-    top: calc(50% - 8px);
-    font-size: 14px;
-    font-weight: 900;
+    top: calc(50% - 8px); /* centrage vertical */
+    font-size: 1em;
+    font-weight: 600;
     transition: 1s;
 }
 
@@ -47,12 +50,12 @@ input[type="checkbox"].checkbox + label:before {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 40px;
-    height: 40px;
+    width: 47px;
+    height: 47px;
     border-radius: 50px;
     background-color: #cceeff;
     font-family: "Font Awesome 5 Free";
-    font-size: 20px;
+    font-size: 1.2em;
     color: #0065FC;
     font-weight: 900;
     position: absolute;
@@ -81,7 +84,7 @@ input[type="checkbox"].checkbox:hover + label .checkbox__title{
 \*----------------------------------------*/
 
 input[type="checkbox"].economique+ label {
-    width: 160px;
+    width: 176px;
 }
 
 input[type="checkbox"].economique + label:before {
@@ -89,11 +92,12 @@ input[type="checkbox"].economique + label:before {
 }
 
 input[type="checkbox"].economique:hover + label::before{
-    transform: translate(120px) rotate(360deg);
+    transform: translate(130px) rotate(360deg);
+    border: solid 1px #f2f2f2;
 }
 
 input[type="checkbox"].economique:hover + label .checkbox__title{
-    transform: translate(-25px);
+    transform: translate(-38px);
 }
 
 /*--------------------------------------- *\
@@ -101,23 +105,20 @@ input[type="checkbox"].economique:hover + label .checkbox__title{
 \*----------------------------------------*/
 
 input[type="checkbox"].familial+ label {
-    width: 130px;
+    width: 140px;
 }
 
 input[type="checkbox"].familial + label:before {
     content: "\f183";
 }
 
-.checkbox__title{
-    right: 26px;        
-}
-
 input[type="checkbox"].familial:hover + label::before{
-    transform: translate(90px) rotate(360deg);
+    transform: translate(92px) rotate(360deg);
+    border: solid 1px #f2f2f2;
 }
 
 input[type="checkbox"].familial:hover + label .checkbox__title{
-    transform: translate(-30px);
+    transform: translate(-40px);
 }
 
 /*--------------------------------------- *\
@@ -125,7 +126,7 @@ input[type="checkbox"].familial:hover + label .checkbox__title{
 \*----------------------------------------*/
 
 input[type="checkbox"].romantique+ label {
-    width: 160px;
+    width: 170px;
 }
 
 input[type="checkbox"].romantique + label:before {
@@ -133,11 +134,12 @@ input[type="checkbox"].romantique + label:before {
 }
 
 input[type="checkbox"].romantique:hover + label::before{
-    transform: translate(120px) rotate(360deg);
+    transform: translate(122px) rotate(360deg);
+    border: solid 1px #f2f2f2;
 }
 
 input[type="checkbox"].romantique:hover + label .checkbox__title{
-    transform: translate(-30px);
+    transform: translate(-38px);
 }
 
 
@@ -148,8 +150,9 @@ input[type="checkbox"].romantique:hover + label .checkbox__title{
 .checkbox__title{
     right: 20px;
 }
+
 input[type="checkbox"].animaux+ label {
-    width: 200px;
+    width: 220px;
 }
 
 input[type="checkbox"].animaux + label:before {
@@ -157,7 +160,8 @@ input[type="checkbox"].animaux + label:before {
 }
 
 input[type="checkbox"].animaux:hover + label::before{
-    transform: translate(159px) rotate(360deg);
+    transform: translate(172px) rotate(360deg);
+    border: solid 1px #f2f2f2;
 }
 
 input[type="checkbox"].animaux:hover + label .checkbox__title {
