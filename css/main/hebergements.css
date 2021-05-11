@@ -28,6 +28,17 @@
     font-weight: 900;
 }
 
+.hebergement__link{
+    text-decoration: none;
+    color: #000;
+    transition: 1s;
+}
+
+.hebergement__link:hover{
+    transform: scale(1.1);
+    transition: 1s;
+}
+
 .hebergement__card{
     border-radius: 25px;
     box-sizing: border-box;
