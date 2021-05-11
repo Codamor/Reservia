@@ -14,12 +14,16 @@
     width: auto;
     max-width: 1440px;
     margin: 0 auto;
-    padding: 50px 50px;
+    padding: 50px 50px 50px 100px;
     flex-wrap: wrap;
 }
 
 .footer__box:not(:first-child){
     margin-left: 250px;
+}
+
+.footer__title{
+    margin-bottom: 20px;
 }
 
 .footer__list{
@@ -41,7 +45,6 @@
 }
 
 .footer__link:hover{
-    text-decoration: underline;
     color: #0065FC;
 }
 
