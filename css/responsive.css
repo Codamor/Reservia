@@ -7,6 +7,10 @@
 
 @media screen and (max-width: 1380px){
 
+    .header, main{
+        padding: 0 20px;
+    }
+
     .activites__grille{
         flex-direction: column;
     }
@@ -19,17 +23,16 @@
     .activite__image{
         height: 390px;
     }
+
 }
 
+/*------------------------- MAX WIDTH 1200 ---------------------------------------*/
 @media screen and (max-width: 1200px){
-
-    .page-container{
-        padding: 0 20px;
-    }
 
     /*-----------------*\
          HEBERGEMENTS
     \*-----------------*/
+
     .hebergements{
         grid-template-columns: 1fr;
     }
@@ -50,28 +53,22 @@
         justify-content: center;
     }
 
-    .hebergement__card--populaire{
-        margin: 10px;
-    }
+    /*------------------*\
+       FOOTER
+    \*------------------*/
 
-    /*-----------------*\
-         FOOTER
-    \*-----------------*/
-
-    .footer{
-        justify-content: space-around;
+    .footer__box{
+        flex-basis: 100%;
+        margin: 20px;
+        padding: 0;
     }
 
     .footer__box:not(:first-child){
-        margin-left: 0;
+        margin: 20px;
     }
 
-    .activites__grille{
-        flex-direction: column;
-    }
 }
-
-
+/*------------------------- MAX WIDTH 768 ---------------------------------------*/
 @media screen and (max-width: 768px){
 
     .page-container{
@@ -135,10 +132,6 @@
         box-shadow: none;
     }
 
-    .menu__link:visited{
-        box-shadow: 0 2px  #F2F2F2;
-        font-family: "Raleway Bold", Arial, SansSerif;
-    }
 
     /*-----------------*\
            SEARCH
@@ -146,12 +139,39 @@
 
     .search{
         width: 100%;
-        margin: 10px 0 0 0;
+        margin-top: 25px;
         padding: 0 20px;
     }
 
-    .search-bar__text, .search-bar__button{
-        font-size: 0.8em;
+    .search-bar{
+        margin-top: 25px;
+    }
+
+    .search__text{
+        display: none; /* hide "RECHERCHER" */
+    }
+
+    .search-bar__text{
+        font-size: 1.1em;
+    }
+
+    .search-bar__button{
+        width: 50px;
+        height: 50px;
+        border-radius: 15px;
+        border: none;
+        outline: none;
+        background-color: #0065FC;
+        color: #fff ;
+    }
+
+    .search-bar__button::after{
+        font-family: "Font Awesome 5 Free";
+        content: "\f002";
+        text-align: center;
+        font-size: 1em;
+        font-weight: 900;
+        color: #fff;
     }
 
     /*-----------------*\
@@ -159,6 +179,7 @@
     \*-----------------*/
 
     .filters__container{
+        margin: 0;
         padding: 20px;
     }
 
@@ -188,9 +209,6 @@
          HEBERGEMENTS
     \*-----------------*/
 
-    .hebergements{
-        margin: 0;
-    }
 
     .hebergements__content{
         padding: 10px;
@@ -225,6 +243,7 @@
     }
 }
 
+/*------------------------- MAX WIDTH 568 ---------------------------------------*/
 @media screen and (max-width: 568px) {
 
     html, body{
@@ -260,22 +279,10 @@
     }
 
     /*------------------*\
-         FOOTER
+        FOOTER
     \*------------------*/
 
-    .footer{
-        margin-top: 50px;
-        padding: 20px;
+    .footer__container{
+        padding: 20px 0 20px 10px;
     }
-
-    .footer__box{
-        flex-basis: 100%;
-        margin: 20px;
-        padding: 0;
-    }
-
-    .footer__box:not(:first-child){
-        margin: 20px;
-    }
-
 }

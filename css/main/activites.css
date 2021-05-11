@@ -14,11 +14,11 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
-    gap: 20px;
 }
 
 .activite__card{
     width: 305px;
+    margin: 10px 0;
     border-radius: 25px;
     box-shadow: 5px 5px 10px grey ;
     overflow: hidden;
@@ -49,7 +49,6 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    gap: 30px;
 }
 
 
