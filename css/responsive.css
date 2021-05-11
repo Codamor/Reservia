@@ -235,6 +235,10 @@
           SEARCH BAR
     \*-----------------*/
 
+    .search{
+        padding: 0 10px;
+    }
+
     .search-bar__text{
         font-size: 1.3em;
     }
