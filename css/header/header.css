@@ -30,14 +30,13 @@
     margin: 2px 0;
     display: flex;
     justify-content: space-evenly;
-    list-style-type: none;
 }
 
 .menu__link{
     display: block;
-    padding: 50px 0;
-    font-size: 1em;
-    text-decoration: none;
+    padding-top: 50px;
+    padding-bottom: 25px;
+    font-size: 1.1em;
     color: #0065FC;
 }
 
@@ -45,14 +44,13 @@
     box-shadow: 0 -2px 0 #0065FC;
 }
 
+.menu__item:last-child .menu__link{
+    font-weight: 700;
+}
+
 .menu__item:last-child .menu__link:hover{
     box-shadow: none;
 }
-
-.menu__item:last-child .menu__link{
-    font-family: "Raleway Bold", Arial, SansSerif;
-}
-
 
 
 /*---------------------- *\
@@ -61,8 +59,7 @@
 .information__title{
     display: flex;
     align-items: center;
-    padding: 10px 0;
-    font-size: 0.8em;
+    margin-top: 30px;
     font-weight: normal;
 }
 
