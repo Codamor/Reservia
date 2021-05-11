@@ -5,6 +5,21 @@
     RESPONSIVE DESIGN styles
 \*----------------------------------------------- */
 
+@media screen and (max-width: 1380px){
+
+    .activites__grille{
+        flex-direction: column;
+    }
+
+    .activite__card{
+        width: 100%;
+        height: 445px;
+    }
+
+    .activite__image{
+        height: 390px;
+    }
+}
 
 @media screen and (max-width: 1200px){
 
@@ -50,14 +65,14 @@
     .footer__box:not(:first-child){
         margin-left: 0;
     }
+
+    .activites__grille{
+        flex-direction: column;
+    }
 }
 
 
 @media screen and (max-width: 768px){
-
-    body{
-        margin: 0;
-    }
 
     .page-container{
         padding: 0;
@@ -87,7 +102,6 @@
     .menu{
         width: 100%;
         justify-content: normal;
-        padding: 0;
     }
 
     .menu li:nth-child(1), .menu li:nth-child(2){
@@ -223,7 +237,6 @@
 
     .hebergement__card{
         min-width: 100%;
-        margin: 20px 0;
         padding: 5px;
     }
 
@@ -239,9 +252,7 @@
          ACTIVITES
     \*------------------*/
     .activite__card{
-        width: 100%;
         height: 190px;
-        margin: 10px 0;
     }
 
     .activite__image{
