@@ -1,84 +1,77 @@
 # Reservia
 
-## Présentation
+![Reservia](Reservia_capture.png "Reservia")
 
-**Réservia** site permet aux usagers de trouver des hébergements et des activités dans la ville de leur choix.
+## Table of Contents
 
-Les hébergements peuvent également être filtrés par thématique, par exemple leur budget ou leur ambiance.
+- [Context](#context)
+- [Demonstration](#demonstration)
+- [What this project allowed me to practice](#what-this-project-allowed-me-to-practice)
+  - [Skills](#skills),
+  - [Technologies / Methods](#technologies--methods)
+- [Resources](#resources)
+- [Expected deliverables](#expected-deliverables)
 
-Un nouveau design basé sur les principes du **Material Design** vient d’être proposé par **Loïc**, **designer UI**.
+## Context 
+
+**Reservia** would be a site that should allow users to book accommodation and activities in the city of their choice.
+
+## Demonstration
+
+**Reservia** is visible on https://codamor.github.io/Reservia/
+
+## What this project allowed me to practice
+
+### Skills
+
+* cut and integrate a model,
+* structure a web page with HTML5,
+* style a web page with CSS3.
+
+### Technologies / methods
+
+* HTML5/CSS3
+* positioning with Grid and FlexBox,
+* responsive design with media queries.
+
+## Resources
+
+* desktop model,
+* mobile model.
+
+## Expected deliverables
+
+* the search button should not be functional,
+
+* each accommodation or activity card had to be clickable in its entirety (empty links),
 
 
-## Fonctionnalité attendues
-
-* Les usagers pourront rechercher des hébergements dans la ville de leur choix,
-
-
-* Le champ de recherche est un champ de saisie dont le texte peut être édité par l’usager, 
+* filters should not be functional for this version,
+  * change of appearance on hover,
+  * free choice of effect.
 
 
-* à ce stade, le bouton de recherche ne sera pas fonctionnel,
+* The **Hébergements** and **Activités** links had to be anchors that lead to the sections of the page,
+
+
+## Technical constraints
+
+The site had to be adapted to :
+  * desktop,
+  * mobiles,
+  * shelves (free adaptation).
+
+
+Images adapted to the resolution and loading time,
+
+
+Icons from the **Font Awesome** library,
+
+
+Graphic charter:
+  * blue #0065FC,
+  * blue light version #DEEBFF,
+  * gray for background #F2F2F2,
+  * font : **RALEWAY**
   
-  
-* chaque carte d’hébergement ou d’activité devra être cliquable dans son intégralité (liens vides),
-  
-
-* Les filtres ne seront pas fonctionnels pour cette version,
-    * il faut qu’ils changent d’apparence au survol,
-    * libre choix de l’effet le plus approprié.
-  
-
-* les liens **Hébergements** et **Activités** sont des ancres qui doivent mener aux sections de la page,
-
-
-## Contraintes techniques
-
-* Le site doit être adapté aux :
-    * desktop (cf maquette),
-    * mobiles (cf maquette),
-    * tablettes (adaptations nécessaires libres).
-    
-
-* images adaptés à la résolution et au temps de chargement,
-
-
-* icônes de la librairie **Font Awesome**,
-
-
-* couleurs de la charte graphique :
-    * bleu #0065FC,
-    * bleu version clair #DEEBFF
-    * gris pour le fond #F2F2F2
-    
-
-* police du site est **RALEWAY**
-
-
-## Consignes
-
-* Ne pas utiliser de :
-    * framework,
-    * compilateur
-    
-
-* Utiliser :
-    * **Flexbox** ou **Grid**
-
-
-* Intégration des icônes **Font Awesome** en **HTML** ou **CSS**
-
-
-* le code devra être :
-    * valide aux normes **W3C**,
-    * compatible avec les dernières versions de **Chrome** et **Firefox**
-    
-
-## Livrables
-
-* lien vers le repository,
-
-* lien vers la **GitHub** page,
-
-* dépôt des livrables sur la plateforme **OpenClassRooms**.
-
 
